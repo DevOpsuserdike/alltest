@@ -17,6 +17,17 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 <project.reporting.outputEncoding>utf-8</project.reporting.outputEncoding>
 </properties>
 
+<distributionManagement>
+    <snapshotRepository>
+        <id>nexus</id>
+        <url>http://52.12.21.97:8081/repository/maven-snapshots/</url>
+    </snapshotRepository>
+      <repository>
+        <id>nexus</id>
+        <url>http://52.12.21.97:8081/repository/maven-releases/</url>
+      </repository>
+</distributionManagement>
+  
 <dependencies>
 <dependency>
 <groupId>org.scala-lang</groupId>
