@@ -9,7 +9,6 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 <packaging>pom</packaging>
 <version>0.0.1-SNAPSHOT</version>
 
-
 <name>Maven Project</name>
 <url>http://www.example.com</url>
 
