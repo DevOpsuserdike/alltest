@@ -7,10 +7,9 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 <groupId>com.example.maven-project</groupId>
 <artifactId>maven-project</artifactId>
 <version>0.0.1-SNAPSHOT</version>
-<packaging>jar</packaging>
+<packaging>pom</packaging>
 
 <name>Maven Project</name>
-<description>Sample Maven project with a working, deployable site.</description>
 <url>http://www.example.com</url>
 
 <properties>
