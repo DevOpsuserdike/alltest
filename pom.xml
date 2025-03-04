@@ -14,6 +14,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
 <properties>
 <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+<project.reporting.outputEncoding>utf-8</project.reporting.outputEncoding>
 </properties>
 
 <dependencies>
