@@ -27,7 +27,11 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
         <url>http://52.12.21.97:8081/repository/maven-releases/</url>
       </repository>
 </distributionManagement>
-  
+
+<modules>
+    <module>webapp</module>
+</modules>
+    
 <dependencies>
 <dependency>
 <groupId>org.scala-lang</groupId>
