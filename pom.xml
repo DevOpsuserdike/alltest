@@ -21,13 +21,10 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
 <distributionManagement>
     <snapshotRepository>
-        <id>nexus</id>
-        <url>http://52.12.21.97:8081/repository/maven-snapshots/</url>
+        <id>snapshots</id>
+        <name>a0nyf4x8gc3lu-artifactory-primary-0-snapshots</name>
+        <url>https://trialiwwh7a.jfrog.io/artifactory/webapp-libs-snapshot</url>
     </snapshotRepository>
-      <repository>
-        <id>nexus</id>
-        <url>http://52.12.21.97:8081/repository/maven-releases/</url>
-      </repository>
 </distributionManagement>
 
 <build>
